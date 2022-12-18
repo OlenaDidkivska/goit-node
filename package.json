@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^9.4.1"
+  },
+  "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlenaDidkivska/node.js.git"
+  },
+  "author": "Olena Didkivska <elenatyutyuma@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlenaDidkivska/node.js/issues"
+  },
+  "homepage": "https://github.com/OlenaDidkivska/node.js#readme",
+  "description": ""
+}
